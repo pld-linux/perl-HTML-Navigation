@@ -30,7 +30,7 @@ menu o dowolnym wygl±dzie i strukturze w dokumentach HTML.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
