@@ -7,7 +7,7 @@ Summary:	HTML-Navigation perl module
 Summary(pl):	Modu³ perla HTML-Navigation
 Name:		perl-%{modname}
 Version:	0.26
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -21,6 +21,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 HTML::Navigation is Perl module for creating navigation bars/menus of
 arbitrary design and structure within HTML documents.
+
+%description -l pl
+HTML::Navigation to modu³ Perla do tworzeni nawigacyjnych pasków i
+menu o dowolnym wygl±dzie i strukturze w dokumentach HTML.
 
 %prep
 %setup -q -n %{modname}-%{version}
