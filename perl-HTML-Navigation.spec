@@ -5,8 +5,6 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	HTML
 %define		pnam	Navigation
-%define		modname	%{pdir}-%{pnam}
-
 Summary:	HTML::Navigation perl module
 Summary(pl):	Modu³ perla HTML::Navigation
 Name:		perl-HTML-Navigation
@@ -15,7 +13,7 @@ Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{modname}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	92e06c381bcf256674d120a5990dd94e
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -31,7 +29,7 @@ HTML::Navigation to modu³ Perla do tworzeni nawigacyjnych pasków i
 menu o dowolnym wygl±dzie i strukturze w dokumentach HTML.
 
 %prep
-%setup -q -n %{modname}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 %{__perl} Makefile.PL \
