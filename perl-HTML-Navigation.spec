@@ -3,8 +3,8 @@
 %define         pnam      Navigation
 %define         modname   %{pdir}-%{pnam}
 
-Summary:	HTML-Navigation perl module
-Summary(pl):	Modu³ perla HTML-Navigation
+Summary:	HTML::Navigation perl module
+Summary(pl):	Modu³ perla HTML::Navigation
 Name:		perl-%{modname}
 Version:	0.26
 Release:	3
