@@ -9,7 +9,7 @@
 
 Summary:	HTML::Navigation perl module
 Summary(pl):	Modu³ perla HTML::Navigation
-Name:		perl-%{modname}
+Name:		perl-HTML-Navigation
 Version:	0.26
 Release:	5
 # same as perl
@@ -52,5 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README ChangeLog
-%{perl_vendorlib}/%{pdir}/*.pm
+%{perl_vendorlib}/HTML/*.pm
 %{_mandir}/man3/*
