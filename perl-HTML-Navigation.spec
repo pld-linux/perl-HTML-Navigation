@@ -11,7 +11,7 @@ Summary:	HTML::Navigation perl module
 Summary(pl):	Modu³ perla HTML::Navigation
 Name:		perl-%{modname}
 Version:	0.26
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
