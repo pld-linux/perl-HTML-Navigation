@@ -8,7 +8,8 @@ Summary(pl):	Modu³ perla HTML::Navigation
 Name:		perl-%{modname}
 Version:	0.26
 Release:	4
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{modname}-%{version}.tar.gz
 # Source0-md5:	92e06c381bcf256674d120a5990dd94e
