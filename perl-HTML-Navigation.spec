@@ -28,7 +28,7 @@ menu o dowolnym wygl±dzie i strukturze w dokumentach HTML.
 %setup -q -n %{modname}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
