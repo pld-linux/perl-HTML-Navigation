@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Navigation
 Summary:	HTML::Navigation perl module
-Summary(pl):	Modu≥ perla HTML::Navigation
+Summary(pl.UTF-8):   Modu≈Ç perla HTML::Navigation
 Name:		perl-HTML-Navigation
 Version:	0.26
 Release:	5
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 HTML::Navigation is Perl module for creating navigation bars/menus of
 arbitrary design and structure within HTML documents.
 
-%description -l pl
-HTML::Navigation to modu≥ Perla do tworzeni nawigacyjnych paskÛw i
-menu o dowolnym wygl±dzie i strukturze w dokumentach HTML.
+%description -l pl.UTF-8
+HTML::Navigation to modu≈Ç Perla do tworzeni nawigacyjnych pask√≥w i
+menu o dowolnym wyglƒÖdzie i strukturze w dokumentach HTML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
