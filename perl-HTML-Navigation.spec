@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Navigation
 Summary:	HTML::Navigation perl module
-Summary(pl.UTF-8):   Moduł perla HTML::Navigation
+Summary(pl.UTF-8):	Moduł perla HTML::Navigation
 Name:		perl-HTML-Navigation
 Version:	0.26
 Release:	5
