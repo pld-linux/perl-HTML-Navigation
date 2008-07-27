@@ -9,7 +9,7 @@ Summary:	HTML::Navigation perl module
 Summary(pl.UTF-8):	Moduł perla HTML::Navigation
 Name:		perl-HTML-Navigation
 Version:	0.26
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
