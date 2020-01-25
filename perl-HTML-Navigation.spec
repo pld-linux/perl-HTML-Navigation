@@ -4,7 +4,6 @@
 
 %define		pdir	HTML
 %define		pnam	Navigation
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::Navigation perl module
 Summary(pl.UTF-8):	Moduł perla HTML::Navigation
 Name:		perl-HTML-Navigation
